@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid red;
+            
+        }
+        td{
+            background-color: aqua;
+        }
+        th,td{
+            border:1px solid red;
+            border-radius: 10px;
+            border-style:dotted;
+            text-align: center;
+            padding-top: 50px;
+            border-bottom: 0cap;
+        }
+        td:nth-child(even){
+            background-color: bisque;
+        }
+        td:hover{
+            background-color: blueviolet;
+        }
+
+    </style>
+
 </head>
 <body>
     <h1>  hi
@@ -14,5 +39,43 @@
     <h4> good afternoon </h4>
     <h5> good night 
     </h5>
+     
+    <table style="width:50%">
+        <caption> Student Details </caption>
+        <tr>
+            <th> S no.</th>
+            <th> Name </th>
+            <th> Roll no. </th>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Bhavya Rajput </td>
+            <td> 60 </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> Akshit Rajput </td>
+            <td> 62 </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Thakur Amit Kumar </td>
+            <td> 63 </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Thakur Gopal Singh </td>
+            <td> 64 </td>
+        </tr>
+    </table>
+    <ul>
+        <li> Cofee </li>
+    </ul>
+    <ol>
+        <li> Tea </li>
+    </ol>
+    <dl>
+        <dt> Cold Drink</dt>
+    </dl>
 </body>
 </html>
